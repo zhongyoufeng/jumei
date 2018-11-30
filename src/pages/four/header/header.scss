@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    height: 158px;
+    background: #fd465f;
+    .nav{
+        width: 100%;
+        height:44px;
+        background: salmon;
+        display: flex;
+        i,span{
+            flex: 1;
+            line-height: 44px;
+            font-size: 16px;
+            color: white;
+        }
+        i:first-child{
+            margin-left: 10px;
+        }
+        i:last-child{
+            text-align: right;
+            margin-right: 10px;
+        }
+        span{
+            text-align: center;
+        }
+    }
+}

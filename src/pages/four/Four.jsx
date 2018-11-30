@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import Header from './header/header.jsx';
+import './main.scss'
 
 export default class Four extends Component {
   render() {
     return (
-      <div id="four" className="page">
-        <h1>我的</h1>
+      <div id="main" className="page">
+       <Header/>
       </div>
     );
   }
