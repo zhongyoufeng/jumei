@@ -5,6 +5,10 @@ export default class Two extends Component {
     return (
       <div id="two" className="page">
         <h1>拼团</h1>
+        <h1>55</h1>
+        <h1>55</h1>
+        <h1>55</h1>
+        <h1>55</h1>
       </div>
     );
   }
